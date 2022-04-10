@@ -77,8 +77,8 @@
         <h4 class="mb-3 mt-5">Cadastro de Alunos</h4>
       <form action="#">
         <div style="width:75%;float:left">
-          <div class="row">
-            <div class="col-6-md">
+          <div class="row row-col-lg-6">
+            <div class="col-11">
                 <label for="nome" class="form-label">Nome</label>
                 <input type="text" pattern="[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+" class="form-control" id="nome" placeholder="Seu Nome" required> 
             </div>
@@ -91,27 +91,27 @@
             </div>
           </div>
           <div class="row">
-             <div class="col-6-md">
+             <div class="col-11">
                 <label for="dataDeNascimento" class="form-label">Data de Nascimento</label>
                 <input type="date"min="1900-01-01" max="2022-12-31"class="form-control" id="dataDeNascimento" required>
               </div>
           </div>
           <div class="row">
-             <div class="col-6-md">
+             <div class="col-11">
                 <label for="notaFinal" class="form-label">Nota final</label>
                 <input type="number" min="0" max="10"class="form-control" id="notaFinal" placeholder="De 0 a 10 (somente números inteiros)" required>
               </div>
           </div>
            <br>
           <div class="row"> 
-             <div class="col-6-md">
+             <div class="col-11">
                <button class=" w-100 btn btn-primary btn-lg " onclick="cadastrar()"type="submit">Finalizar Cadastro</button>
              </div>
           </div>
             <br><br>
             <div class="row">
-            <div class="col-6-md"><p><h4>Lista de Alunos</h4></p></div>
-            <div class="col-6-md" id="lista"></div>  
+            <div class="col-11"><p><h4>Lista de Alunos</h4></p></div>
+            <div class="col-11" id="lista"></div>  
          </div>
         </div>   
       </form>  
